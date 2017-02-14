@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Book Counter</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div class="logo"></div>
+
+    <div class="center">
+      <h2>Book Counter</h2>
+        <form>
+            <label><p>Book Name: </p></label>
+            <input name="booktitle" id="booktitle" type="text">
+            <label><p>Total Pages: </p></label>
+            <input type="text">
+            <label><p>Current Page: </p></label>
+            <input type="text">
+            <button type="button" onclick="bookInfo()">Add to List</button>
+        </form>
+    </div>
+
+    <div id="info">
+        <h2>Book Info</h2>
+        <div id="bookName"></div>
+        <div id="totalPages"></div>
+        <div id="pagesLeft"></div>
+        <p>Pages Remaining.</p>
+        <div id="percentageLeft"></div>
+        <p>Remaining.</p>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
