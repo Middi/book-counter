@@ -1,9 +1,24 @@
 (function() {
-// Create hotel object
+
+
+  // pull value from text field and set to object
+
+  document.getElementById("my-btn").addEventListener("click", function() {
+      book.name = document.getElementById('booktitle').value;
+      bookName.textContent = book.name;
+
+      book.totalPages = document.getElementById('total-pages').value;
+      totalPages.textContent = 'Total Pages: ' + book.totalPages;
+
+      book.pages = document.getElementById('pages').value;
+      book.pages.textContent = book.pages;
+  });
+
+// Create book object
 
 var book =  {
 
-name: 'JavaScript & jQuery',
+name: 'Tom & Jerry',
 totalPages: 622,
 pages: 162,
 pagesLeft: function() {
@@ -17,7 +32,7 @@ percentageLeft: function() {
 };
 
 
-// write out hotel name standard rate and special rate
+// write out book name and pages info
 
 var bookName, totalPages, pagesLeft, percentageLeft; //declares variables
 
@@ -26,15 +41,10 @@ totalPages = document.getElementById('totalPages');
 pagesLeft = document.getElementById('pagesLeft');
 percentageLeft = document.getElementById('percentageLeft');
 
+
 bookName.textContent = book.name; // write to document
 totalPages.textContent = 'Total Pages: ' + book.totalPages;
 pagesLeft.textContent =  book.pagesLeft();
 percentageLeft.textContent =  book.percentageLeft() + '%';
-
-
-
-function bookInfo(){
-  book.name = document.getElementById('booktitle').value;
-};
 
 }());
