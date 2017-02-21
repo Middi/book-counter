@@ -6,8 +6,12 @@ h2 {
   font-weight: normal; }
 
 p {
-  padding: 2px;
+  padding: 5px;
   margin: 6px 0 4px; }
+
+#info p {
+  padding: 10px;
+  margin: 10px 0 4px; }
 
 /*  ---- COLORS ---- */
 /* BACKGROUNDS */
@@ -109,7 +113,8 @@ input {
   font-weight: 600;
   font-size: 2em;
   border-top: 1px solid #fff;
-  padding: 0px; }
+  padding: 0px;
+  line-height: 2em; }
 
 /* -- BREAK 1 -- */
 @media only screen and (max-width: 1400px) {
@@ -141,12 +146,12 @@ input {
     padding: 30px; }
   #info {
     width: 100%;
-    padding: 20px 0 40px;
+    padding: 1px 0 40px;
     min-height: 200px;
     height: auto;
     position: relative; }
   #info {
-    font-size: 0.7em; } }
+    font-size: 0.9em; } }
 
 /* -- BREAK 3 -- */
 @media only screen and (max-width: 600px) {
