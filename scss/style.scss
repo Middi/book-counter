@@ -10,6 +10,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
     margin: 0;
+    padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -19,6 +20,7 @@ body {
     background-position: center;
     width: 230px;
     height: 180px;
+    float: left;
 }
 
 
@@ -32,6 +34,7 @@ body {
     margin: 20px auto;
     text-align: center;
     padding: 30px;
+    clear: both;
 }
 
 label {
@@ -44,6 +47,7 @@ input {
   height: 32px;
   font-size: 22px;
 }
+
 
 
 /* right side div */
@@ -93,9 +97,11 @@ input {
     text-transform: uppercase;
     color: #ffb87a;
     font-weight: 600;
-    font-size: 200%;
+    font-size: 2em;
     border-top: 1px solid #fff;
-    padding: 20px;
+    padding: 0px;
 }
+
+
 
 @import "media-queries"
