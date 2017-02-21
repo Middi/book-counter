@@ -1,12 +1,11 @@
 /* ----- BUTTONS ----- */
-
 #my-btn {
     font-size: 15px;
     text-decoration: none;
-    background-color: desaturate($button, 10);
+    background-color: desaturate($button, 30);
     padding: 8px 22px;
     line-height: 70px;
-    color: #444;
+    color: white;
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
     border-radius: 6px;
@@ -17,4 +16,5 @@
 
 #my-btn:hover {
     background-color: saturate($button, 30);
+    box-shadow: 0 6px 10px 0 $shadow, 0 8px 16px 0 $shadow;
 }

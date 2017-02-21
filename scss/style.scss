@@ -5,12 +5,7 @@
 
 
 body {
-    background-color: #fff;
-    background: url("images/books.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-color: #CFCCBC;
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
@@ -19,7 +14,7 @@ body {
 /* center div */
 
 .center {
-    background: rgba(0, 0, 0, 0.5);
+    background-color: #B2B3A4;
     width: 500px;
     height: auto;
     border-radius: 4px;
@@ -30,7 +25,7 @@ body {
 }
 
 label {
-      color: white;
+      color: #111;
 }
 
 input {
@@ -46,8 +41,8 @@ input {
 /* right side div */
 
 #info {
-    background-color: #1e1b1e;
-    color: #fff;
+    background-color: #B2B3A4;
+    color: #111;
     width: 300px;
     padding: 0 15px;
     text-align: center;
@@ -65,22 +60,22 @@ input {
     text-align: center;
     font-size: 120%;
     margin-top: 10px;
-    border-top: 1px solid #fff;
-    border-bottom: 1px solid #fff;
+    border-top: 1px solid #111;
+    border-bottom: 1px solid #111;
     padding: 10px 0;
 }
 
 #totalPages {
     font-size: 150%;
     font-weight: 200;
-    color: white;
+    color: #111;
     display: block;
     margin: 20px;
 }
 
 #pagesLeft {
     font-size: 440%;
-    color: #ffb87a;
+    color: #FF2910;
     display: inline-block;
     padding: 10px 0 0 0;
     margin: 0;
@@ -88,10 +83,10 @@ input {
 
 #percentageLeft {
     text-transform: uppercase;
-    color: #ffb87a;
+    color: #FF2910;
     font-weight: 600;
     font-size: 2em;
-    border-top: 1px solid #fff;
+    border-top: 1px solid #111;
     padding: 0px;
     line-height: 2em;
 }

@@ -3,7 +3,7 @@
 
 h2 {
     margin: 1.75em 0 0 0;
-    color: #adffda;
+    color: #398D95;
     font-weight: 700;
 }
 
@@ -23,8 +23,14 @@ i {
   color: #FF2910;
 }
 
-.built {
+.built, a {
   padding: 0;
   margin: 0;
-  color: white;
+  color: #111;
+  text-decoration: none;
+  transition: all 0.6s ease;
+}
+
+a:hover {
+  text-decoration: underline;
 }
