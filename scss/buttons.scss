@@ -2,13 +2,13 @@
 
 #my-btn {
     font-size: 15px;
+    text-decoration: none;
     background-color: desaturate($button, 10);
-    line-height: 18px;
     padding: 8px 22px;
+    line-height: 70px;
     color: #444;
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
-    margin: 20px;
     border-radius: 6px;
     box-shadow: 0 4px 8px 0 $shadow, 0 6px 20px 0 $shadow;
     cursor: pointer;
