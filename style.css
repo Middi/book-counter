@@ -9,6 +9,28 @@ p {
   padding: 2px;
   margin: 6px 0 4px; }
 
+/*  ---- COLORS ---- */
+/* BACKGROUNDS */
+/* TYPOGRAPHY */
+/* BUTTONS */
+/* ----- BUTTONS ----- */
+#my-btn {
+  font-size: 15px;
+  background-color: #e7a882;
+  line-height: 18px;
+  padding: 8px 22px;
+  color: #444;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  margin: 20px;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease; }
+
+#my-btn:hover {
+  background-color: #ffa269; }
+
 body {
   background-color: #fff;
   background: url("images/books.jpg") no-repeat center center fixed;
@@ -33,7 +55,7 @@ body {
   border-radius: 4px;
   margin: 20px auto;
   text-align: center;
-  padding: 30px;
+  padding: 40px;
   clear: both; }
 
 label {
@@ -101,30 +123,40 @@ input {
             transform: scale(0.8);
     margin-left: auto;
     margin-right: auto;
-    padding: 20px; }
+    padding: 40px; }
   #info {
     width: 250px; } }
 
 /* -- BREAK 2 -- */
 @media only screen and (max-width: 1200px) {
   .logo {
-    background-size: 6.5%;
+    background-size: 60px;
     background-position: 16px, 1px;
     width: 100%;
-    height: 80px; }
+    height: 80px;
+    margin: 0; }
   .center {
     -webkit-transform: scale(0.75);
             transform: scale(0.75);
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px; }
+    padding: 30px; }
   #info {
     width: 100%;
     padding: 20px 0 40px;
-    text-align: center;
     min-height: 200px;
     height: auto;
-    position: relative;
-    right: 0; }
+    position: relative; }
   #info {
     font-size: 0.7em; } }
+
+/* -- BREAK 3 -- */
+@media only screen and (max-width: 600px) {
+  .center {
+    width: 100%;
+    margin: 0 30px 20px -30px; }
+  input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 32px;
+    font-size: 22px; } }
