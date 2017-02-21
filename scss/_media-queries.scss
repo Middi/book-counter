@@ -1,3 +1,6 @@
+/*
+ MEDIA QUERIES
+*/
 /* -- BREAK 1 -- */
 @media only screen and (max-width: 1400px) {
     .logo {
@@ -5,13 +8,6 @@
         background-position: center;
         width: 170px;
         height: 120px;
-    }
-
-    .center {
-        transform: scale(0.8);
-        margin-left: auto;
-        margin-right: auto;
-        padding: 40px;
     }
 
     #info {
@@ -29,8 +25,7 @@
     }
 
     .center {
-        transform: scale(0.75);
-        padding: 30px;
+        margin: 50px auto;
     }
 
     #info {
@@ -45,28 +40,25 @@
         font-size: 0.9em;
     }
 }
-
-
 /* -- BREAK 3 -- */
 @media only screen and (max-width: 600px) {
+    .center {
+        width: 100%;
+        margin: 0;
+        padding: 20px 0;
+    }
 
-  .center {
-      width: 100%;
-      margin: 0 30px 20px -30px;
-  }
+    input {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        height: 32px;
+        font-size: 22px;
+    }
 
-  input {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    height: 32px;
-    font-size: 22px;
-  }
-
-  #my-btn {
-      transform: scale(1.4);
-      margin-top: 40px;
-      }
-
+    #my-btn {
+        transform: scale(1.4);
+        margin: 40px 0 60px;
+    }
 }

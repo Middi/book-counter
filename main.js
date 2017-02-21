@@ -24,9 +24,9 @@
 
 	var book = {
 
-		name: 'Tom & Jerry',
-		totalPages: 622,
-		pages: 162,
+		name: 'Book',
+		totalPages: 1,
+		pages: 1,
 		pagesLeft: function() {
 			var total = this.totalPages - this.pages;
 			return total;
