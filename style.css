@@ -74,6 +74,21 @@ input {
   height: 32px;
   font-size: 22px; }
 
+input,
+input[type],
+textarea {
+  background-color: #CFCCBD;
+  border-radius: 0;
+  height: 40px;
+  border: 2px solid rgba(0, 0, 0, 0.2); }
+
+input:focus,
+input[type]:focus,
+textarea:focus {
+  box-shadow: 0 0px 0px rgba(219, 69, 52, 0) inset, 0 0 0px rgba(219, 69, 52, 0);
+  border: 2px solid #db4534;
+  outline: 0 none; }
+
 /* right side div */
 #info {
   background-color: #B2B3A4;
