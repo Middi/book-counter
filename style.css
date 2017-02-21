@@ -2,15 +2,24 @@
 h2 {
   margin: 1.75em 0 0 0;
   color: #adffda;
-  font-weight: normal; }
+  font-weight: 700; }
 
 p {
   padding: 5px;
-  margin: 6px 0 4px; }
+  margin: 6px 0 0px; }
 
 #info p {
   padding: 10px;
   margin: 10px 0 4px; }
+
+i {
+  font-size: 12px;
+  color: #FF2910; }
+
+.built {
+  padding: 0;
+  margin: 0;
+  color: white; }
 
 /*  ---- COLORS ---- */
 /* ----- BUTTONS ----- */
@@ -48,7 +57,7 @@ body {
   border-radius: 4px;
   margin: 120px auto;
   text-align: center;
-  padding: 20px;
+  padding: 10px 20px;
   clear: both; }
 
 label {
