@@ -29,6 +29,7 @@ p {
   margin: 20px;
   border-radius: 6px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease; }
 
@@ -164,4 +165,8 @@ input {
     margin-right: auto;
     width: 80%;
     height: 32px;
-    font-size: 22px; } }
+    font-size: 22px; }
+  #my-btn {
+    -webkit-transform: scale(1.4);
+            transform: scale(1.4);
+    margin-top: 40px; } }
