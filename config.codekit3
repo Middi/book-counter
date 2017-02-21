@@ -9,24 +9,6 @@
 	],
 "creatorBuild": "25504",
 "files": {
-	"\/fin-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/fin-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/fin.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/fin-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/images\/back.jpg": {
 		"ft": 16384,
 		"iS": 453705,
@@ -107,6 +89,19 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/scss\/_media-queries.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_media-queries.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/scss\/_typography.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -120,34 +115,8 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/scss\/colors.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/scss\/colors.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/scss\/normalise.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/scss\/normalise.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/scss\/style.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -176,7 +145,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 508502117,
-	"displayValue": "throwaway",
+	"displayValue": "book-counter",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-leo"
 	},
