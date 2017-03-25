@@ -7,7 +7,7 @@
 		"uuidString": "E9234207-D8AA-4328-B15B-8E6255DB09C5"
 		}
 	],
-"creatorBuild": "25504",
+"creatorBuild": "25704",
 "files": {
 	"\/images\/back.jpg": {
 		"ft": 16384,
@@ -15,7 +15,8 @@
 		"oA": 0,
 		"oAP": "\/images\/back.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/books.jpg": {
 		"ft": 16384,
@@ -23,23 +24,28 @@
 		"oA": 0,
 		"oAP": "\/images\/books.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/check-cross.png": {
 		"ft": 32768,
 		"iS": 1441,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/check-cross.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/comic.png": {
 		"ft": 32768,
 		"iS": 44470,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/comic.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/logo.gif": {
 		"ft": 4194304,
@@ -52,18 +58,22 @@
 	"\/images\/logo.png": {
 		"ft": 32768,
 		"iS": 10711,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/logo.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 1,
+		"q": 100
 		},
 	"\/images\/logo2.png": {
 		"ft": 32768,
 		"iS": 26988,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/logo2.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 1,
+		"q": 100
 		},
 	"\/index.html": {
 		"ft": 8192,
@@ -845,6 +855,10 @@
 			"active": 1,
 			"optionString": ""
 			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-cond-assign": {
 			"active": 1,
 			"optionString": "'except-parens'"
@@ -1042,6 +1056,10 @@
 			"optionString": "{'grouping': false, 'allowCall': false }"
 			},
 		"no-mixed-spaces-and-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-assign": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -1321,6 +1339,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
 		"object-curly-newline": {
 			"active": 0,
 			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
@@ -1372,6 +1394,10 @@
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -1466,6 +1492,10 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
@@ -1912,7 +1942,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -2005,7 +2036,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"enableLossy": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
